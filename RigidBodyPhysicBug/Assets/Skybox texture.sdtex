@@ -1,0 +1,9 @@
+!Texture
+Id: 011214b2-69d4-4d4e-b395-d6c524de04dc
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../Resources/skybox_texture_ldr.dds
+IsCompressed: false
+Type: !ColorTextureType
+    UseSRgbSampling: false
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
