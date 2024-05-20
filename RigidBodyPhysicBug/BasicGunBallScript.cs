@@ -163,7 +163,7 @@ namespace RigidBodyPhysicBug
         {
             var direction = Vector3.Transform(-Vector3.UnitZ, camera.Entity.Transform.Rotation);
 
-            var entity = new Entity(camera.Entity.Transform.Position);
+            var entity = new Entity("Bullet", camera.Entity.Transform.Position);
 
             entity.GetOrCreate<ModelComponent>().Model = new Model
             {
